@@ -1,24 +1,25 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './routing/app-routing.module';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { AppRoutingModule } from './app-routing.module';
-import { HomepageComponent } from './homepage/homepage.component';
-import { ResumeComponent } from './resume/resume.component';
-import { AboutComponent } from './about/about.component';
-import { MediaKitComponent } from './media-kit/media-kit.component';
-import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { AboutComponent } from './components/about/about.component';
+import { MediaKitComponent } from './components/media-kit/media-kit.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ProfessionalPortfolioComponent } from './components/professional-portfolio/professional-portfolio.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomepageComponent,
-    ResumeComponent,
     AboutComponent,
     MediaKitComponent,
-    ContactComponent
+    ContactComponent,
+    ProfessionalPortfolioComponent,
   ],
   imports: [
     BrowserModule,
