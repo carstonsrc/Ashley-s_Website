@@ -1,1 +1,18 @@
 <p>homepage works!</p>
+
+<div>
+    Homepage header image
+</div>
+
+<div>in pursuit of a beautiful life</div>
+
+
+<div >
+    <ul class="flex-container">
+        <div *ngFor="let c of cards">
+            <img class="img"src="{{c.image}}">
+            <div>{{c.title}}</div>
+            <button>Click me!</button> 
+        </div>
+    </ul>
+</div>
